@@ -1,0 +1,144 @@
+html{
+    min-height: 100%;
+    min-width: 100%;
+}
+
+p{
+    font-size: 1.4rem;
+    margin-left: 3.5rem;
+}
+
+body {
+    background-color: beige;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+footer{
+    font-size: 1.4rem;
+    margin-left: 1rem;
+}
+.titulo{
+    font-size: 35px;
+    font-weight: bold;
+    color: gray;
+}
+
+.text-div{
+    height: 300px;
+    display: contents;
+    padding: auto;
+}
+
+.textareaInput{
+    font-size: 50px;    
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-right: 40px;
+    padding-top: 30px;
+}
+
+.textareaEncript{
+    font-size: 30px;    
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+
+.img-responsive{
+    min-width: 20rem;
+    min-height: 30rem;
+    max-width: 40rem;
+    max-height: 35rem;
+    display: block;
+    margin: auto;
+    float: right;
+}
+
+@media (min-width: 1000px) {
+    .img-responsive{
+        width: 20rem;
+    }
+}
+
+.text-Encript{
+    display: flex;
+    height: 10rem;
+    width: 100%;
+    border: black solid 5px;
+    border-radius: 10px;
+    
+}
+
+@media (max-width: 1000px){
+    .text-Encript{
+        margin-top: 1.5rem;
+    }
+}
+
+@media (min-width: 1000px){
+    .text-Encript{
+        height: 35rem;
+        margin: auto;
+    }
+}
+
+.text-Encript::placeholder{
+    font-size: 30px;
+    font-style: italic;
+}
+
+.text-Input{
+    height: 100%;
+    min-width: 50%;
+    border: black solid 5px;
+    border-radius: 10px;
+}
+
+@media (min-width: 1000px){
+    .text-Input{
+        height: 35rem;
+    }
+}
+
+.text-Input::placeholder{
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.espaciador{
+    width: 200px;
+    
+}
+.zona-deTexto{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+@media (max-width: 1000px){
+    .zona-deTexto{
+        flex-direction: column;
+    }
+}
+
+.buttons{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.botton-copiar{
+   margin-left: 20px;
+   border: black solid 2px;
+}
+
+@media (max-width: 1000px){
+    .botton-copiar{
+        position: flex;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+}
